@@ -1,4 +1,5 @@
 # PlaysTvCrawler
+A webcrawler script that downloads videos from PlaysTv
 ## Motivation
 PlaysTv is a tool made to record gameplay. You can also upload your videos to their website. On November 2019 PlaysTv announced that they will discontinue their service on December 15th, 2019. All videos will no longer exist after that date. So I went to look at my PlaysTv account and realized I had almost 290 videos on the platform, and each video had golden gameplay content on it. It was clear that I would download all of them but I immediately thought about writing a script that would do it for me. So I got to work and wrote this PlaysTvCrawler.
 
@@ -10,6 +11,8 @@ PlaysTv is a tool made to record gameplay. You can also upload your videos to th
 5. The program will stop when the video link list is empty
 
 It took 30 minutes for this script to load 290 videos so it saved me from some manual work. 
+
+![](https://imgur.com/DQsQD8n)
 
 ## How to use
 * Install Python 3.8.0
