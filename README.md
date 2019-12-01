@@ -12,14 +12,14 @@ PlaysTv is a tool made to record gameplay. You can also upload your videos to th
 
 It took 30 minutes for this script to load 290 videos so it saved me from some manual work. 
 
-![](https://imgur.com/DQsQD8n)
+![](https://media.giphy.com/media/SUoWJNcDP64rf4vP72/giphy.gif)
 
 ## How to use
-* Install Python 3.8.0
+* run with Python 3.8.0
 * On line 16, replace USERNAME with your username
 * On line 17, replace PASSWORD with your password
 * On line 55, replace USERNAME with your username
-* Install dependencies and run on commandline with: python PlaysTvCrawler.py
+* Install dependencies (see requirements.txt and imports on top of the code) and run on terminal with: python PlaysTvCrawler.py
 
 
 ## Libraries
