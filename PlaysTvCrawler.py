@@ -1,10 +1,9 @@
-import webbrowser
 import requests
 import time
 import urllib
 import re
 
-from bs4 import BeautifulSoup
+
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 
@@ -14,8 +13,8 @@ driver = webdriver.Chrome()
 
 def login():
 	""" Login  """
-	driver.find_element_by_id('login_urlname').send_keys('username')
-	driver.find_element_by_id('login_pwd').send_keys('password' + '\n')
+	driver.find_element_by_id('login_urlname').send_keys('USERNAME')
+	driver.find_element_by_id('login_pwd').send_keys('PASSWORD' + '\n')
 
 def scroll_down():
 	"""Scroll at the end of the page """
