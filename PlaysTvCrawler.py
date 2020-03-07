@@ -44,7 +44,7 @@ def check_name(name):
 	"""Get rid of all the special characters in the name and return new name """
 	new_name = ''
 	new_name = new_name.join(e for e in name if e.isalnum())
-	new_name += ".mp3"
+	new_name += ".mp4"
 	return new_name
 
 
